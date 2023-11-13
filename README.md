@@ -120,14 +120,14 @@ In your real work you don't create conflicting changes on purpose. But for the s
 
     My name is **your name** I am from **your country** I am a student of the Data Bootcamp
 
-But if you check the local .md file you will have the previous version as we did a reset:
+    But if you check the local .md file you will have the previous version as we did a reset:
 
-My name is **your name** I am from **your country**  
+    My name is **your name** I am from **your country**  
     
 Create a new branch called `conflict`:
 
 ```bash
-git git checkout -b conflict
+git checkout -b conflict
 ```
 
 1. On the new branch, open `your-code/about-me.md` and add 'I work as **'your job'**'
